@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testngproj.ListContent"/>
+      <class name="testngproj.Sorting"/>
+      <class name="testngproj.PaginationConceptTest"/>
+      <class name="testngproj.ScreenShotTest"/>
+      <class name="testngproj.ValidateSelectDropDownValues"/>
+      <class name="testngproj.Sorting2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
